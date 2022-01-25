@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./image/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./image/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./image/favicon_io/favicon-16x16.png"
+    />
+
+    <!---fontawesom cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--custom scss-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>EcoClean</title>
+  </head>
+  <body>
+    <!---Landing page start-->
+    <!--header section-->
+    <header class="header">
+      <div class="container header-container">
+        <a href="#" class="logo-wrapper">
+          <img src="./image/logo (1).png" alt="" />
+          <div class="logo-content">
+            <h1>
+              <strong>
+                <span class="highlight">e</span><span class="highlight">c</span
+                ><span class="highlight">o</span> </strong
+              >clean
+            </h1>
+            <span class="bottom">cleaning companys</span>
+          </div>
+        </a>
+
+        <ul class="nav-bar">
+          <li><a href="#">home</a></li>
+          <li><a href="#">page</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">gallery</a></li>
+        </ul>
+
+        <div
+          class="hamburger"
+          onclick="document.querySelector('.nav-bar').classList.toggle('nav-bar-active')"
+        >
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+
+        <a href="#" class="header-btn">schedule cleanning</a>
+      </div>
+    </header>
+
+    <!--header end-->
+
+    <!---hero section-->
+    <section class="hero">
+      <div class="img-container"><img src="./image/slide01.jpg" alt="" /></div>
+
+      <div class="container hero-container">
+        <div class="hero-desc">
+          <h2>welcome to our website</h2>
+          <h3>The best cleaning company <br /><span>in the country</span></h3>
+          <p>
+            Morbi fringilla convallis sapien, id pulvinar odio volutpat. Quam
+            temere in vitiis, legem sancimus haerentia. Qui ipsorum lingua
+            Celtae, nostra Galli appellantur. Non equidem invideo, miror magis
+            posuere velit aliquet. Ut enim ad minim etla pasta.
+          </p>
+          <button class="btn">service calculator</button>
+        </div>
+      </div>
+    </section>
+
+    <!--hero end-->
+
+    <!--contact section start-->
+    <section class="contact">
+      <div class="container contact-container">
+        <div class="phone grid">
+          <div class="phone-wrapper">
+            <img src="./image/download.svg" alt="" />
+          </div>
+          <div class="phone-content">
+            <p>have a question? call us now</p>
+            <h5><strong>1-800-300-2121</strong></h5>
+          </div>
+        </div>
+
+        <div class="time grid">
+          <div class="phone-wrapper">
+            <img src="./image/download (1).svg" alt="" />
+          </div>
+          <div class="phone-content">
+            <p>we are open monday-friday</p>
+            <h5><strong>08:00 - 17:00</strong></h5>
+          </div>
+        </div>
+        <div class="location grid">
+          <div class="phone-wrapper">
+            <img src="./image/location.svg" alt="" />
+          </div>
+          <div class="phone-content">
+            <p>need cleaning/ our address</p>
+            <h5><strong>437 S Olive St, Los Angeles</strong></h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--landing page end-->
+
+    <!-------gsap cdn link-->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+      integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
